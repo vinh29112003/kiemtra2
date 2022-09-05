@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li {
+    list-style: none ;
+}
+.main {
+    position: relative;
+    
+}
+.main img {
+    -webkit-filter:  grayscale(40%);
+    filter:grayscale(70%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.container {
+    position: absolute;
+}
+
+.container .title {
+    padding-top: 10px;
+    width: 100%;  
+}
+
+.container .title h1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container .content {
+    margin: 0 80px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.content .content-left {
+    background-color: white;
+    height: 35rem;
+    padding: 30px;
+    width: 65%;
+    margin-right: 20px;
+}
+.content .content-left p {
+    color: rgb(9, 9, 121);
+    font-family: sans-serif;
+}
+
+.content .content-left form{
+    display: inline-block;
+    width: 20rem;
+    margin-top: 10px;
+}
+.content .content-left form input{
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+    
+}
+.content .content-left form input::placeholder {
+    color: brown;
+    float: left;
+    
+}
+.content .content-left form label {
+    color: rgb(0, 255, 255);
+}
+
+.content .content-right {
+    width: 35%;
+    height: 20rem;
+    display: block;
+}
+.content .content-right .content-top {
+    background-color: rgb(24, 24, 104);
+    width: 100%;
+    height: 18rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+.content .content-right .content-top p {
+    color: white   ;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+.content-right .content-top .contact {
+    display: flex;
+    margin:10px 0;
+}
+.content-right .content-top .contact i{
+    background-color:rgb(0, 174, 255);    
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    color: white;
+    border-radius:50%;
+    width:30px;
+}
+.content-right .content-top .icon {
+    margin-top: 20px ;
+}
+.content-right .content-top .icon i {
+    font-size: 30px;
+    color: gray;
+    margin: 10px;
+}
+.content-left button {
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(211, 106, 124);
+    
+}
+.content-left  textarea {
+    height: 200px;
+    width: 625px;
+}
+
+
